@@ -1,4 +1,4 @@
-/*create the function to print hot and cold depending on the temperature the user enters*/
+/*create the function to print hot and cold depending on the temperature user enters*/
 #include <stdio.h>
 
 void Temp(int temp);
