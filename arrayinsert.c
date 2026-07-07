@@ -2,8 +2,10 @@
 #include<stdio.h>
 
 int main(){
-    int arr[4] ={ 1, 2, 3, };
-    arr[3] = 5;
-    printf("%d",arr[3]);
+    int arr[5] ={ 1, 2, 3 };
+    int size = 3;
+    arr[size] = 4;
+    size++;
+    printf("%d\n",arr[3]);
     return 0;
 }
